@@ -2,7 +2,7 @@ import os
 import subprocess
 
 os.system("echo hello world")
-fileList = os.listdir() #("E:/CAR CODER/test")
+fileList = os.listdir()
 for i in fileList:
     print([i])
     n = i.split(".")
