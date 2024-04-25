@@ -15,7 +15,7 @@ print(conVidPath)
 if not os.path.isdir(finalPath):
     os.makedirs(finalPath)
 if not os.path.isdir(origVidPath):
-    os.makedirs((origVidPath))
+    os.makedirs(origVidPath)
 for i in fileList:
     fileext = os.path.splitext(i)[1]
     if ((fileext == '.mp4') or fileext == '.mkv' or fileext == '.MOV' or fileext == '.webm' or fileext == '.MP4'
